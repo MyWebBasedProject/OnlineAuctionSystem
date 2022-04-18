@@ -95,7 +95,7 @@ include('smtp/PHPMailerAutoload.php');
 							$log = "INSERT INTO login(email, uname, pwd) VALUES ('$email', '$uname', '$pwd')";
 								if ($conn->query($log) === TRUE) {
 									$mssg = urldecode("$uname, You have been succesfully registered");
-									header("Location:/index.php?Message=".$mssg);
+									header("Location:https://biddingwars.azurewebsites.net/index.php?Message=".$mssg);
 								}
                         }   
                     }
