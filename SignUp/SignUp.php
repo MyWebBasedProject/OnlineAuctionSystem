@@ -92,8 +92,11 @@ include('smtp/PHPMailerAutoload.php');
 					   $sql="INSERT into registration values ('$uname', '$fname', '$mname', '$lname', '$dob', '$gender', '$room_no', '$locality', '$station', '$pincode', '$state', '$phone', '$email', '$pwd', '$status')";
                        echo smtp_mailer($email,$subject,$body);
                         if ($conn->query($sql) === TRUE) {
-                            $mssg = urldecode("$uname, You have been succesfully registered");
-                            header("Location:/index.php?Message=".$mssg);
+							$log = "INSERT INTO login(email, uname, pwd) VALUES ('$email', '$uname', '$pwd')";
+								if ($conn->query($log) === TRUE) {
+									$mssg = urldecode("$uname, You have been succesfully registered");
+									header("Location:/index.php?Message=".$mssg);
+								}
                         }   
                     }
                 }
