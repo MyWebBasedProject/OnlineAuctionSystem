@@ -9,14 +9,14 @@ session_start();
     <head>
         <title>Time Remaining For Bid</title>
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="http://biddingwars.tk/CSS/TimeRemaingForBid.css">
+        <link rel="stylesheet" href="././CSS/TimeRemaingForBid.css">
     </head>
     <body>
         <?php
         
 
             
-            $conn = mysqli_connect("localhost", "id16328974_root", "Anonymou$9895", "id16328974_bidding_wars") or die("Conncetion Failed");
+        $conn = mysqli_connect("127.0.0.1:50844", "azure", "6#vWHD_$", "bidding_wars") or die("Conncetion Failed");
             $sql4 = "SELECT * FROM items WHERE status='available' and product_id='$productId'";
             $query4 = mysqli_query($conn, $sql4);
             $Day="";

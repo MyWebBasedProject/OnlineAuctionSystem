@@ -3,7 +3,7 @@ session_start();
 //called within update for one user 
     $productID = $_SESSION["ProductID"];
     $Username = $_SESSION["uname"];
-    $conn = mysqli_connect("localhost", "id16328974_root", "Anonymou$9895", "id16328974_bidding_wars");
+    $conn = mysqli_connect("127.0.0.1:50844", "azure", "6#vWHD_$", "bidding_wars");
     $result = mysqli_query($conn,"SELECT * FROM $productID WHERE UserName='DummyUser' and Status='$Username'");
     if(mysqli_num_rows($result) >0)
     {

@@ -4,22 +4,22 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width">
         <title>Reset Password</title>
-        <link rel="stylesheet" href="/CSS/forget.css">
+        <link rel="stylesheet" href="https://biddingwars.azurewebsites.net/CSS/forget.css">
 	</head>
 <body>
 
 	<div class="sub">
             
                 <ul>
-                    <li><a href="http://biddingwars.tk">Home</a></li>
-                    <li><a href="http://biddingwars.tk/Contact.php">Contact</a></li>
-                    <li><a href="http://biddingwars.tk/Rules.html">Rules</a></li>
+                    <li><a href="https://biddingwars.azurewebsites.net/index.php">Home</a></li>
+                    <li><a href="https://biddingwars.azurewebsites.net/Contact.php">Contact</a></li>
+                    <li><a href="https://biddingwars.azurewebsites.net/Rules.html">Rules</a></li>
               </ul>  
 	</div>        
 	<br>
 	<div class="text">
 		<?php
-		$conn = mysqli_connect("localhost", "id16328974_root", "Anonymou$9895", "id16328974_bidding_wars");
+		$conn = mysqli_connect("127.0.0.1:50844", "azure", "6#vWHD_$", "bidding_wars");
 		if (!$conn) {
 			die("Connection Failed:" . mysqli_connect_error());
 		} else {

@@ -2,15 +2,15 @@
 <html lang="en">
     <head>
         <title>Buy Form</title>
-        <link rel="stylesheet" href="http://biddingwars.tk/CSS/itemDetails.css">
+        <link rel="stylesheet" href="././/CSS/itemDetails.css">
         <meta name="viewport" content="width=device-width">
     </head>
     <body>
         <ul>
-            <li><a href="/StartPage/StartPage.php">Home</a></li>
+            <li><a href="./StartPage/StartPage.php">Home</a></li>
             <li><a href="#news">News</a></li>
-            <li><a href="/StartPage/Contact.php">Contact</a></li>
-            <li><a href="http://biddingwars.tk/StartPage/Rules.html">Rules</a></li>
+            <li><a href="./StartPage/Contact.php">Contact</a></li>
+            <li><a href="./StartPage/Rules.html">Rules</a></li>
       </ul>
         <table align='center' border = '0' cellspacing = '7' cellpadding = '10'>
             <thead>
@@ -20,7 +20,7 @@
             </tr>
             </thead>
             <?php
-            $conn = mysqli_connect("localhost", "id16328974_root", "Anonymou$9895", "id16328974_bidding_wars");
+            $conn = mysqli_connect("127.0.0.1:50844", "azure", "6#vWHD_$", "bidding_wars");
             if (!$conn)
             {
                 die("Connection Failed:" . mysqli_connect_error());

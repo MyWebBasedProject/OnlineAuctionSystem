@@ -3,14 +3,14 @@
     <head>
         <title>Buy</title>
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="http://biddingwars.tk/CSS/Buy.css">
+        <link rel="stylesheet" href="././CSS/Buy.css">
     </head>
     <body>
     <ul>
             <li><a href="/StartPage/StartPage.php">Home</a></li>
             <li><a href="/StartPage/Contact.php">Contact</a></li>
-            <li><a href="http://biddingwars.tk/StartPage/Rules.html">Rules</a></li>
-            <li><a  href="http://biddingwars.tk">Log Out</a></li>
+            <li><a href="./StartPage/Rules.html">Rules</a></li>
+            <li><a  href="././index.php">Log Out</a></li>
       </ul>
       <h3>
         <p style="text-align:center;">
@@ -39,7 +39,7 @@
         <input type="submit" value="search" name="buy">
         </form>
         <?php
-            $conn = mysqli_connect("localhost", "id16328974_root", "Anonymou$9895", "id16328974_bidding_wars");
+            $conn = mysqli_connect("127.0.0.1:50844", "azure", "6#vWHD_$", "bidding_wars");
             if(! $conn)
             {
                 die("Connection Failed:".mysqli_connect_error());

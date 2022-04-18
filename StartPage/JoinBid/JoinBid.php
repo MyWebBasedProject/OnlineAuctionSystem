@@ -8,13 +8,13 @@
     <head>
         <title>Join Bid</title>
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="http://biddingwars.tk/CSS/joinBid.css">
+        <link rel="stylesheet" href="././CSS/joinBid.css">
     </head>
     <body>
             <p id="totalBidTime"></p>
        <div style="text-align:center;"> 
         <?php
-            $conn = mysqli_connect("localhost", "id16328974_root", "Anonymou$9895", "id16328974_bidding_wars") or die("Conncetion Failed");
+            $conn = mysqli_connect("127.0.0.1:50844", "azure", "6#vWHD_$", "bidding_wars") or die("Conncetion Failed");
             $sql1 = "SELECT * FROM $productId WHERE UserName='$Username'";
             
             $sql4 = "SELECT * FROM items WHERE product_id='$productId'";

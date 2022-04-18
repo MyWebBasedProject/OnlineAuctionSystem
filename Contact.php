@@ -39,7 +39,7 @@
         </div> <br>			
 
             <?php
-		        $conn = mysqli_connect("localhost", "id16328974_root", "Anonymou$9895", "id16328974_bidding_wars");
+		        $conn = mysqli_connect("127.0.0.1:50844", "azure", "6#vWHD_$", "bidding_wars");
 		        if (!$conn) {
 			    die("Connection Failed:" . mysqli_connect_error());
 		        } else {
@@ -52,7 +52,7 @@
 
 				if ($conn->query($sql) === TRUE) {
                     $mssg = urldecode("$name, Your Query Has Been Registered");
-                        header("Location:http://biddingwars.tk/?Message=".$mssg);
+                        header("Location:index.php/?Message=".$mssg);
 				} else {
 					echo "Error :" . $sql . "<br>" . $conn->error;
 				}

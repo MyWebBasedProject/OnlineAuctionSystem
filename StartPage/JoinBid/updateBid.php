@@ -4,7 +4,7 @@ session_start();
 $Username = $_SESSION["uname"];
 $productID = $_SESSION["ProductID"];
 $basePrice = $_SESSION["basePrice"];
-$conn = mysqli_connect("localhost", "id16328974_root", "Anonymou$9895", "id16328974_bidding_wars") or die("Conncetion Failed");
+$conn = mysqli_connect("127.0.0.1:50844", "azure", "6#vWHD_$", "bidding_wars") or die("Conncetion Failed");
 
 $mybid = $_POST["myBidKey"];
 $sql="SELECT * FROM $productID Where UserName='DummyUser'";

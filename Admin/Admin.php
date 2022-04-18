@@ -54,7 +54,7 @@ body {
         <a href="Users.php">Registered</a>
         <a href="BannedUsers.php">Banned</a>
         <a href="Queries.php">Queries</a>
-        <a href="/index.php">Logout</a>
+        <a href="https://biddingwars.azurewebsites.net/index.php">Logout</a>
 </div>
    
 </body>

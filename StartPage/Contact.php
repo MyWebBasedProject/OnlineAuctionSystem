@@ -4,14 +4,14 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width">
         <title>Contact Us</title>
-        <link rel="stylesheet" href="/CSS/Contact.css">
+        <link rel="stylesheet" href="https://biddingwars.azurewebsites.net/CSS/Contact.css">
     </head>
     <body>
         <div class="navigation">
             <div class="top-right">
                 <ul>
-                    <li><a href="StartPage.php">Home</a></li>
-                    <li><a href="Rules.html">Rules</a></li>
+                    <li><a href="https://biddingwars.azurewebsites.net/StartPage.php">Home</a></li>
+                    <li><a href="https://biddingwars.azurewebsites.net/Rules.html">Rules</a></li>
               </ul> 
              </div> 
         </div>
@@ -39,7 +39,7 @@
         </div> <br>			
 
             <?php
-		        $conn = mysqli_connect("localhost", "id16328974_root", "Anonymou$9895", "id16328974_bidding_wars");
+		        $conn = mysqli_connect("127.0.0.1:50844", "azure", "6#vWHD_$", "bidding_wars");
 		        if (!$conn) {
 			    die("Connection Failed:" . mysqli_connect_error());
 		        } else {
@@ -52,7 +52,7 @@
 
 				if ($conn->query($sql) === TRUE) {
                    $mssg = urldecode("$name, Your Query Has Been Registered");
-                       header("Location:http://biddingwars.tk/StartPage/StartPage.php?Message=".$mssg);
+                       header("Location:StartPage.php?Message=".$mssg);
 				} else {
 					//echo "Error :" . $sql . "<br>" . $conn->error;
 				}
@@ -64,5 +64,5 @@
 
 		</form></div>
     </body>
-    <script src="JavaScript/Contact.js"></script>
+    <script src="./JavaScript/Contact.js"></script>
 </html>

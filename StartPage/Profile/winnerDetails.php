@@ -4,13 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width">
     <title>Winner Details</title>
-    <link rel="stylesheet" href="http://biddingwars.tk/CSS/Profile.css">
-    <link rel="stylesheet" href="http://biddingwars.tk/CSS/Details.css">
+    <link rel="stylesheet" href="././CSS/Profile.css">
+    <link rel="stylesheet" href="././CSS/Details.css">
 </head>
 <body>
 
      <?php
-     $conn = mysqli_connect("localhost", "id16328974_root", "Anonymou$9895", "id16328974_bidding_wars");
+     $conn = mysqli_connect("127.0.0.1:50844", "azure", "6#vWHD_$", "bidding_wars");
      if (!$conn) {
          die("Connection Failed:" . mysqli_connect_error());
      } else {   
@@ -59,7 +59,7 @@
     echo "$html_table";
     }
     ?>
-    <a href="http://biddingwars.tk/StartPage/Profile/Profile.php" class="button">Back</a>
+    <a href="Profile.php" class="button">Back</a>
     </div>
 </body>
 </html>

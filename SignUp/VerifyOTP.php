@@ -7,16 +7,16 @@ include('smtp/PHPMailerAutoload.php');
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width">
     <title>OTP Verification</title>
-    <link rel="stylesheet" href="/CSS/VerifyOTP.css">
+    <link rel="stylesheet" href="https://biddingwars.azurewebsites.net/CSS/VerifyOTP.css">
 </head>
 <body>
     <div class="navigation">
        <div class="top-right">
             
             <ul>
-  				<li><a href="/index.php">Home</a></li>
-  				<li><a href="#contact">Contact</a></li>
-  				<li><a href="/Rules.html">Rules</a></li>
+  				<li><a href="https://biddingwars.azurewebsites.net/index.php">Home</a></li>
+  				<li><a href="https://biddingwars.azurewebsites.net/Contact.php">Contact</a></li>
+  				<li><a href="https://biddingwars.azurewebsites.net/Rules.html">Rules</a></li>
 			</ul>
         </div> 
     </div>
@@ -34,7 +34,7 @@ include('smtp/PHPMailerAutoload.php');
         <input type="submit" value="Submit" name="submit">
 
         <?php
-		 $conn = mysqli_connect("localhost", "id16328974_root", "Anonymou$9895", "id16328974_bidding_wars");
+		 $conn = mysqli_connect("127.0.0.1:50844", "azure", "6#vWHD_$", "bidding_wars");
 		if (!$conn) {
 			die("Connection Failed:" . mysqli_connect_error());
 		} else {

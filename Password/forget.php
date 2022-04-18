@@ -8,7 +8,7 @@ include('smtp/PHPMailerAutoload.php');
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width">
         <title>Forgot Password</title>
-        <link rel="stylesheet" href="/CSS/reset.css">
+        <link rel="stylesheet" href="https://biddingwars.azurewebsites.net/CSS/reset.css">
 	</head>
 
 <body>
@@ -16,9 +16,9 @@ include('smtp/PHPMailerAutoload.php');
 	
             
                 <ul>
-                    <li><a href="http://biddingwars.tk">Home</a></li>
-                    <li><a href="http://biddingwars.tk/Contact.php">Contact</a></li>
-                    <li><a href="http://biddingwars.tk/Rules.html">Rules</a></li>
+                    <li><a href="https://biddingwars.azurewebsites.net/index.php">Home</a></li>
+                    <li><a href="https://biddingwars.azurewebsites.net/Contact.php">Contact</a></li>
+                    <li><a href="https://biddingwars.azurewebsites.net/Rules.html">Rules</a></li>
               </ul>   
              
 	
@@ -37,7 +37,7 @@ include('smtp/PHPMailerAutoload.php');
 </form>
 
 <?php
-$conn = mysqli_connect("localhost", "id16328974_root", "Anonymou$9895", "id16328974_bidding_wars");
+$conn = mysqli_connect("127.0.0.1:50844", "azure", "6#vWHD_$", "bidding_wars");
 if(! $conn)
 {
 	die("Connection Failed:".mysqli_connect_error());
@@ -50,7 +50,7 @@ else
 	$email = mysqli_real_escape_string($conn,$_REQUEST['email']);
 
     $subject = "Reset Your Password";
-    $body = "Click on this link to reset your Password. http://biddingwars.tk/Password/reset.php";
+    $body = "Click on this link to reset your Password. https://biddingwars.azurewebsites.net/Password/reset.php";
     function smtp_mailer($email,$subject, $body)
 					{
 						$mail = new PHPMailer(); 

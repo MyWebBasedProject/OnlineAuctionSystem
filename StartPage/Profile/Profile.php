@@ -7,21 +7,21 @@
     <head>
         <title>My Profile</title>
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="http://biddingwars.tk/CSS/Profile.css">
+        <link rel="stylesheet" href="././CSS/Profile.css">
     </head>
     <body>
 
         <div class="navigation">
             <ul>
-                <li><a href="/StartPage/StartPage.php">Home</a></li>
-                <li><a href="/StartPage/Contact.php">Contact</a></li>
-                <li><a href="http://biddingwars.tk/StartPage/Rules.html">Rules</a></li>
-                <li><a  href="http://biddingwars.tk">Log Out</a></li>
+                <li><a href="./StartPage/StartPage.php">Home</a></li>
+                <li><a href="./StartPage/Contact.php">Contact</a></li>
+                <li><a href="./StartPage/Rules.html">Rules</a></li>
+                <li><a  href="././index.php">Log Out</a></li>
                 </ul>
          </div>
 
     <?php 
-        $conn = mysqli_connect("localhost", "id16328974_root", "Anonymou$9895", "id16328974_bidding_wars") or die("Conncetion Failed");
+        $conn = mysqli_connect("127.0.0.1:50844", "azure", "6#vWHD_$", "bidding_wars") or die("Conncetion Failed");
         $sql = "SELECT *FROM registration where uname ='$username' ";
         $query = mysqli_query($conn, $sql);
         $count = mysqli_num_rows($query);

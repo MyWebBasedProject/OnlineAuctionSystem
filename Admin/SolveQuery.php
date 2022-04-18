@@ -1,6 +1,6 @@
 <?php
 include('smtp/PHPMailerAutoload.php');
-$conn = mysqli_connect("localhost", "id16328974_root", "Anonymou$9895", "id16328974_bidding_wars");
+$conn = mysqli_connect("127.0.0.1:50844", "azure", "6#vWHD_$", "bidding_wars");
 if (!$conn) {
     die("Connection Failed:" . mysqli_connect_error());
 } else { 
@@ -38,7 +38,7 @@ if (!$conn) {
 						}
 						else
 						{
-						    echo "<script>window.location.href='http://biddingwars.tk/Admin/Queries.php'</script>";
+						    echo "<script>window.location.href=https://biddingwars.azurewebsites.net/Admin/Queries.php'</script>";
 						}
 					}
         $delete = "DELETE FROM contact where Sr_No = '$sr_no' ";

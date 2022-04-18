@@ -15,14 +15,14 @@
 
         <?php 
 
-        $conn = mysqli_connect("localhost", "id16328974_root", "Anonymou$9895", "id16328974_bidding_wars") or die("Conncetion Failed");
+            $conn = mysqli_connect("127.0.0.1:50844", "azure", "6#vWHD_$", "bidding_wars") or die("Conncetion Failed");
         ?>
 
         <div class="navigation">
             <ul>
                 <li><a href="Profile/Profile.php">My Profile</a></li>
-                <li><a href="Contact.php">Contact</a></li>
-                <li><a href="Rules.html">Rules</a></li>
+                <li><a href="/Contact.php">Contact</a></li>
+                <li><a href="/Rules.html">Rules</a></li>
                 <li><a  href="/index.php">Log Out</a></li>
                 </ul>
          </div>

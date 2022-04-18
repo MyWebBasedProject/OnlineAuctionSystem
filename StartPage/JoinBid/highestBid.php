@@ -2,7 +2,7 @@
     session_start();
     $UserName = $_SESSION["uname"];
     $productID = $_SESSION["ProductID"];
-    $conn = mysqli_connect("localhost", "id16328974_root", "Anonymou$9895", "id16328974_bidding_wars") or die("Conncetion Failed");
+    $conn = mysqli_connect("127.0.0.1:50844", "azure", "6#vWHD_$", "bidding_wars") or die("Conncetion Failed");
     $sql="SELECT Highest_Bid, Status FROM $productID Where UserName='DummyUser'";
     $result = mysqli_query($conn, $sql) or die("failed");
     $output = "Current Highest Bid is ";

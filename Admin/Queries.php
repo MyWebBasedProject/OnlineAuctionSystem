@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width">
     <title>Admin Page</title>
-    <link rel="stylesheet" href="http://biddingwars.tk/CSS/Admin.css">
+    <link rel="stylesheet" href="https://biddingwars.azurewebsites.net/CSS/Admin.css">
 </head>
 <body>
     <div id="mySidenav" class="sidenav">
@@ -12,13 +12,13 @@
         <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
         <a href="Users.php">Registered</a>
         <a href="BannedUsers.php">Banned</a>
-        <a href="/index.php">Logout</a>
+        <a href="https://biddingwars.azurewebsites.net/index.php">Logout</a>
 
     </div>
     <span style="font-size:30px;cursor:pointer;color: #7EE8FA;" onclick="openNav()">&#9776; </span>
     
     <?php
-     $conn = mysqli_connect("localhost", "id16328974_root", "Anonymou$9895", "id16328974_bidding_wars");
+     $conn = mysqli_connect("127.0.0.1:50844", "azure", "6#vWHD_$", "bidding_wars");
      if (!$conn) {
          die("Connection Failed:" . mysqli_connect_error());
      } else {   

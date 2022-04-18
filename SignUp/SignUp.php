@@ -9,7 +9,7 @@ include('smtp/PHPMailerAutoload.php');
     <meta name="viewport" content="width=device-width">
     <title>Sign Up Page</title>
     <link href='https://fonts.googleapis.com/css?family=Raleway:400,200' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" href="http://biddingwars.tk/CSS/SignUp.css">
+    <link rel="stylesheet" href="./CSS/SignUp.css">
    
 </head>
 <body>
@@ -17,10 +17,10 @@ include('smtp/PHPMailerAutoload.php');
        <div class="top">
             
             <ul>
-                <li style="float: right;"><a href="http://biddingwars.tk/Rules.html">Rules</a></li>
-                <li style="float: right;"><a href="http://biddingwars.tk/Contact.php">Contact</a></li>
-                <li style="float: right;"><a href="http://biddingwars.tk/">Home</a></li>
-                <list style="float: left;"><a href="http://biddingwars.tk/"><img src="http://biddingwars.tk/CSS/logo.jpg" height="60px"></a></list>
+                <li style="float: right;"><a href="./Rules.html">Rules</a></li>
+                <li style="float: right;"><a href="./Contact.php">Contact</a></li>
+                <li style="float: right;"><a href="index.php">Home</a></li>
+                <list style="float: left;"><a href="index.php"><img src="./CSS/logo.jpg" height="60px"></a></list>
 			</ul>
         </div> 
     </div>
@@ -47,7 +47,7 @@ include('smtp/PHPMailerAutoload.php');
             
         <?php
         session_start();
-        $conn = mysqli_connect("localhost", "id16328974_root", "Anonymou$9895", "id16328974_bidding_wars");
+        $conn = mysqli_connect("127.0.0.1:50844", "azure", "6#vWHD_$", "bidding_wars");
 		if (!$conn) {
 			die("Connection Failed:" . mysqli_connect_error());
 		} else {
