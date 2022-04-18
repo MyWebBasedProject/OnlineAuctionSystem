@@ -94,7 +94,11 @@ include('smtp/PHPMailerAutoload.php');
 								{
 									echo "Error :" . $log . "<br>" . $conn->error;
 							}
-                        }  
+                        }
+                        else 
+								{
+									echo "Error :" . $sql . "<br>" . $conn->error;
+							}  
                     }
                 }
             }
