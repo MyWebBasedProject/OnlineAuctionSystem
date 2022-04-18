@@ -27,7 +27,8 @@ SET time_zone = "+00:00";
 --
 -- Table structure for table `contact`
 --
-
+CREATE DATABASE IF NOT 'bidding_wars';
+USE 'bidding_wars';
 CREATE TABLE `contact` (
   `Sr_No` int(11) NOT NULL,
   `name` varchar(500) NOT NULL,
