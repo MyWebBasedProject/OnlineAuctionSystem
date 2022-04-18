@@ -70,46 +70,12 @@ include('smtp/PHPMailerAutoload.php');
                 $otp = mt_rand(100000, 999999);
                 $status = "pending";
 				
-				$_SESSION['uname'] = $uname;
-				$_SESSION['email'] = $email;
+		$_SESSION['uname'] = $uname;
+		$_SESSION['email'] = $email;
                 $_SESSION['pwd'] = $pwd;
-				$_SESSION['otp']= $otp;
+		$_SESSION['otp']= $otp;
 				
-                $subject = "OTP Verification";
-                $body = "$uname,Welcome to Bidding Wars. Your OTP for registration is, $otp";
-                function smtp_mailer($email,$subject, $body)
-					{
-						$mail = new PHPMailer(); 
-						$mail->SMTPDebug  = 3;
-						$mail->IsSMTP(); 
-						$mail->SMTPAuth = true; 
-						$mail->SMTPSecure = 'tls'; 
-						$mail->Host = "smtp.gmail.com";
-						$mail->Port = 587; 
-						$mail->IsHTML(true);
-						$mail->CharSet = 'UTF-8';
-						$mail->Username = "biddingwars.tk@gmail.com";
-						$mail->Password = "June@2218";
-						$mail->SetFrom("biddingwars.tk@gmail.com");
-						$mail->Subject = $subject;
-						$mail->Body = $body;
-						$mail->AddAddress($email);
-						$mail->SMTPOptions=array('ssl'=>array
-						(
-							'verify_peer'=>false,
-							'verify_peer_name'=>false,
-							'allow_self_signed'=>false
-						));
-						if(!$mail->Send())
-						{
-							echo $mail->ErrorInfo;
-						}
-						else
-						{
-							echo "<script>window.location.href='VerifyOTP.php'</script>";
-						}
-					}
-
+                
                 $emailquery = "SELECT *FROM registration where email = '$email' ";
                 $query = mysqli_query($conn, $emailquery);
                 $emailcount = mysqli_num_rows($query);
@@ -126,8 +92,9 @@ include('smtp/PHPMailerAutoload.php');
 					   $sql="INSERT into registration values ('$uname', '$fname', '$mname', '$lname', '$dob', '$gender', '$room_no', '$locality', '$station', '$pincode', '$state', '$phone', '$email', '$pwd', '$status')";
                        echo smtp_mailer($email,$subject,$body);
                         if ($conn->query($sql) === TRUE) {
-							echo "<script>window.location.href='VerifyOTP.php'</script>";
-                        }  
+                            $mssg = urldecode("$uname, You have been succesfully registered");
+                            header("Location:/index.php?Message=".$mssg);
+                        }   
                     }
                 }
             }
