@@ -77,7 +77,7 @@
                             $uname = mysqli_real_escape_string($conn, $_REQUEST['uname']);
                             $pwd = mysqli_real_escape_string($conn, $_REQUEST['pwd']);
                             $_SESSION['uname'] = $uname ;
-                            if(($uname=="admin")&&($pwd=="April@1716"))
+                            if(($uname=="admin")&&($pwd=="pass@123"))
                             {
                                 echo "<script>window.location.href='Admin/Admin.php'</script>";
                             }
