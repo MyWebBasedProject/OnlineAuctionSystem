@@ -5,7 +5,7 @@
         <meta name="viewport" content="width=device-width">
         <title>Bidding Wars</title>
         <link href='https://fonts.googleapis.com/css?family=Raleway:400,200' rel='stylesheet' type='text/css'>
-        <link rel="stylesheet" href="http://biddingwars.tk/CSS/HomePage.css">
+        <link rel="stylesheet" href="https://github.com/MyWebBasedProject/OnlineAuctionSystem/CSS/HomePage.css">
     </head>
     <body>
     <div class="nav">
