@@ -16,7 +16,7 @@
 <body>
     <div>
     <ul>
-        <li><a href="https://biddingwars.azurewebsites.net/StartPage.php">Home</a></li>
+        <li><a href="https://biddingwars.azurewebsites.net/StartPage/StartPage.php">Home</a></li>
         <li><a href="https://biddingwars.azurewebsites.net/StartPage/Contact.php">Contact</a></li>
         <li><a href="https://biddingwars.azurewebsites.net/StartPage/Rules.html">Rules</a></li>
         <li><a  href="https://biddingwars.azurewebsites.net">Log Out</a></li>
