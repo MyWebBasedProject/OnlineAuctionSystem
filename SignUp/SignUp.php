@@ -68,7 +68,7 @@ include('smtp/PHPMailerAutoload.php');
                 $email = mysqli_real_escape_string($conn, $_REQUEST['email']);
                 $pwd = mysqli_real_escape_string($conn, $_REQUEST['pwd']);
                 $otp = mt_rand(100000, 999999);
-                $status = "pending";
+                $status = "verified";
 				
 		$_SESSION['uname'] = $uname;
 		$_SESSION['email'] = $email;
