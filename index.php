@@ -15,7 +15,7 @@
                 <li style="float: right;"><a href="Rules.html">Rules</a></li>
                 <li style="float: right;"><a href="Contact.php">Contact</a></li>
                 <li style="float: right;"><a href="index.php">Home</a></li>
-                <list style="float: left;"><a href="index.php"><img src="CSS/logo.jpg"  height="60px"></a></list>
+                <list style="float: left;"><a href="index.php"><img src="CSS/logo.jpg" height="60px"></a></list>
 			</ul>
         </div> 
     </div>
