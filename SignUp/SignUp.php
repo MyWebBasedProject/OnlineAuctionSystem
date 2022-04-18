@@ -1,7 +1,3 @@
-<?php
-include('smtp/PHPMailerAutoload.php');
-?>
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -47,7 +43,7 @@ include('smtp/PHPMailerAutoload.php');
             
         <?php
         session_start();
-        $conn = mysqli_connect("localhost", "id16328974_root", "Anonymou$9895", "id16328974_bidding_wars");
+        $conn = mysqli_connect("127.0.0.1:50844", "azure", "6#vWHD_$", "bidding_wars");
 		if (!$conn) {
 			die("Connection Failed:" . mysqli_connect_error());
 		} else {
