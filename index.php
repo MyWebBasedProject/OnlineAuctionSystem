@@ -112,7 +112,7 @@
                     }
                 ?>
                 <div class="Buttons">
-                    <a href='Password/forget.php' style="color: rgb(67, 95, 148);"0>Forgot Password</a>
+                    <a href='Password/reset.php' style="color: rgb(67, 95, 148);"0>Forgot Password</a>
                 </div>
                 <br>
                 <div class="Buttons"><br>
