@@ -12,10 +12,10 @@
        <div class="top">
             
             <ul>
-                <li style="float: right;"><a href="http://biddingwars.tk/Rules.html">Rules</a></li>
-                <li style="float: right;"><a href="http://biddingwars.tk/Contact.php">Contact</a></li>
-                <li style="float: right;"><a href="http://biddingwars.tk/">Home</a></li>
-                <list style="float: left;"><a href="http://biddingwars.tk/"><img src="http://biddingwars.tk/CSS/logo.jpg" height="60px"></a></list>
+                <li style="float: right;"><a href="Rules.html">Rules</a></li>
+                <li style="float: right;"><a href="Contact.php">Contact</a></li>
+                <li style="float: right;"><a href="index.php">Home</a></li>
+                <list style="float: left;"><a href="index.php"><img src="CSS/logo.jpg" height="60px"></a></list>
 			</ul>
         </div> 
     </div>
@@ -50,7 +50,7 @@
             </wrapper>
             
         <div class="LoginForm">
-            <form name="homePageForm" onsubmit="return validateForm()" action="http://biddingwars.tk/" method="post">
+            <form name="homePageForm" onsubmit="return validateForm()" action="index.php" method="post">
                 <p style="text-align:left;"><font color="white">
                     </font>
                 <div class="Username">
@@ -112,14 +112,14 @@
                     }
                 ?>
                 <div class="Buttons">
-                    <a href='http://biddingwars.tk/Password/forget.php' style="color: rgb(67, 95, 148);"0>Forgot Password</a>
+                    <a href='Password/forget.php' style="color: rgb(67, 95, 148);"0>Forgot Password</a>
                 </div>
                 <br>
                 <div class="Buttons"><br>
-                New User here?&nbsp;<a href='http://biddingwars.tk/SignUp/SignUp.php' style="color: rgb(67, 95, 148);">Sign Up</a>
+                New User here?&nbsp;<a href='SignUp/SignUp.php' style="color: rgb(67, 95, 148);">Sign Up</a>
             </div>
             </form>
         </div>
     </body>
-    <script src="http://biddingwars.tk/JavaScript/HomePage.js"></script>
+    <script src="JavaScript/HomePage.js"></script>
 </html>
