@@ -69,7 +69,7 @@
                 </div>
                 
                 <?php
-                    $conn = mysqli_connect("localhost", "id16328974_root", "Anonymou$9895", "id16328974_bidding_wars");
+                    $conn = mysqli_connect("localhost", "root", " ", "bidding_wars");
                     if (!$conn) {
                         die("Connection Failed:" . mysqli_connect_error());
                     } else {
