@@ -39,7 +39,7 @@
 
     <div class="Form">
     	<header><h1>Sign Up</h1></header>
-        <form name="SignUpForm" onsubmit="return validateForm()" method="post" action="SignUp.php">
+        <form name="SignUpForm" onsubmit="return validateForm()" method="POST" action="SignUp.php">
             
         <?php
         session_start();
@@ -64,7 +64,7 @@
                 $email = mysqli_real_escape_string($conn, $_REQUEST['email']);
                 $pwd = mysqli_real_escape_string($conn, $_REQUEST['pwd']);
                 $otp = mt_rand(100000, 999999);
-                $status = "pending";
+                $status = "Verified";
 				
 				$_SESSION['uname'] = $uname;
 				$_SESSION['email'] = $email;
@@ -242,6 +242,6 @@
 
     </div>
     
-    <script src="http://biddingwars.tk/JavaScript/SignUp.js"></script>
+    <script src="https://biddingwars.azurewebsites.net/JavaScript/SignUp.js"></script>
 </body>
 </html>
