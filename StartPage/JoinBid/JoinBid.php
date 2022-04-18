@@ -8,7 +8,7 @@
     <head>
         <title>Join Bid</title>
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="././CSS/joinBid.css">
+        <link rel="stylesheet" href="https://biddingwars.azurewebsites.net/CSS/joinBid.css">
     </head>
     <body>
             <p id="totalBidTime"></p>

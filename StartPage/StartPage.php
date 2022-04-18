@@ -8,8 +8,8 @@
     <head>
         <title>Start Page</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="/CSS/StartPage.css">
-        <script src="/JavaScript/StartPage.js"></script>
+        <link rel="stylesheet" href="https://biddingwars.azurewebsites.net/CSS/StartPage.css">
+        <script src="https://biddingwars.azurewebsites.net/JavaScript/StartPage.js"></script>
     </head>
     <body>
 
@@ -20,10 +20,10 @@
 
         <div class="navigation">
             <ul>
-                <li><a href="Profile/Profile.php">My Profile</a></li>
-                <li><a href="/Contact.php">Contact</a></li>
-                <li><a href="/Rules.html">Rules</a></li>
-                <li><a  href="/index.php">Log Out</a></li>
+                <li><a href="https://biddingwars.azurewebsites.net/StartPage/Profile/Profile.php">My Profile</a></li>
+                <li><a href="https://biddingwars.azurewebsites.net/StartPage/Contact.php">Contact</a></li>
+                <li><a href="https://biddingwars.azurewebsites.net/StartPage/Rules.html">Rules</a></li>
+                <li><a  href="https://biddingwars.azurewebsites.net">Log Out</a></li>
                 </ul>
          </div>
        

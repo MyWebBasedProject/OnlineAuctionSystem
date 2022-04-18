@@ -9,17 +9,17 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sell</title>
-    <link rel="stylesheet" href="/CSS/Sell.css">
+    <link rel="stylesheet" href="https://biddingwars.azurewebsites.net/CSS/Sell.css">
     <script src="jquery-3.5.1.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 </head>
 <body>
     <div>
     <ul>
-        <li><a href="StartPage.php">Home</a></li>
-        <li><a href="/Contact.php">Contact</a></li>
-        <li><a href="/Rules.html">Rules</a></li>
-        <li><a  href="/index.php">Log Out</a></li>
+        <li><a href="https://biddingwars.azurewebsites.net/StartPage.php">Home</a></li>
+        <li><a href="https://biddingwars.azurewebsites.net/StartPage/Contact.php">Contact</a></li>
+        <li><a href="https://biddingwars.azurewebsites.net/StartPage/Rules.html">Rules</a></li>
+        <li><a  href="https://biddingwars.azurewebsites.net">Log Out</a></li>
     </ul>
     </div>
     <div class="Form">

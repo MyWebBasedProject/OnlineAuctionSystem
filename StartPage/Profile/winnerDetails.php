@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width">
     <title>Winner Details</title>
-    <link rel="stylesheet" href="././CSS/Profile.css">
-    <link rel="stylesheet" href="././CSS/Details.css">
+    <link rel="stylesheet" href="https://biddingwars.azurewebsites.net/StartPage/CSS/Profile.css">
+    <link rel="stylesheet" href="https://biddingwars.azurewebsites.net/StartPage/CSS/Details.css">
 </head>
 <body>
 

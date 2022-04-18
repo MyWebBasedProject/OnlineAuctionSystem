@@ -7,16 +7,16 @@
     <head>
         <title>My Profile</title>
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="././CSS/Profile.css">
+        <link rel="stylesheet" href="https://biddingwars.azurewebsites.net/CSS/Profile.css">
     </head>
     <body>
 
         <div class="navigation">
             <ul>
-                <li><a href="./StartPage/StartPage.php">Home</a></li>
-                <li><a href="./StartPage/Contact.php">Contact</a></li>
-                <li><a href="./StartPage/Rules.html">Rules</a></li>
-                <li><a  href="././index.php">Log Out</a></li>
+                <li><a href="https://biddingwars.azurewebsites.net/StartPage/StartPage.php">Home</a></li>
+                <li><a href="https://biddingwars.azurewebsites.net/StartPage/Contact.php">Contact</a></li>
+                <li><a href="https://biddingwars.azurewebsites.net/StartPage/Rules.html">Rules</a></li>
+                <li><a  href="https://biddingwars.azurewebsites.net">Log Out</a></li>
                 </ul>
          </div>
 

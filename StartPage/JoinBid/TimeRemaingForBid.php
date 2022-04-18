@@ -9,7 +9,7 @@ session_start();
     <head>
         <title>Time Remaining For Bid</title>
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="././CSS/TimeRemaingForBid.css">
+        <link rel="stylesheet" href="https://biddingwars.azurewebsites.net/CSS/TimeRemaingForBid.css">
     </head>
     <body>
         <?php

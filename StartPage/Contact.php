@@ -11,7 +11,7 @@
             <div class="top-right">
                 <ul>
                     <li><a href="https://biddingwars.azurewebsites.net/StartPage.php">Home</a></li>
-                    <li><a href="https://biddingwars.azurewebsites.net/Rules.html">Rules</a></li>
+                    <li><a href="https://biddingwars.azurewebsites.net/StartPage/Rules.html">Rules</a></li>
               </ul> 
              </div> 
         </div>

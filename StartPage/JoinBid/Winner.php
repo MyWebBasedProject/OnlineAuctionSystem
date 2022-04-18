@@ -9,7 +9,7 @@ $UserName = $_SESSION["uname"];
     <head>
         <title>Winner</title>
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="././CSS/Winner.css">
+        <link rel="stylesheet" href="https://biddingwars.azurewebsites.net/CSS/Winner.css">
         <link href="https://fonts.googleapis.com/css?family=Raleway:400,200" rel="stylesheet" type="text/css">
     </head>
 

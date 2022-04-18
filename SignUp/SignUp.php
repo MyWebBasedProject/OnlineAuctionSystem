@@ -9,7 +9,7 @@ include('smtp/PHPMailerAutoload.php');
     <meta name="viewport" content="width=device-width">
     <title>Sign Up Page</title>
     <link href='https://fonts.googleapis.com/css?family=Raleway:400,200' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" href="./CSS/SignUp.css">
+    <link rel="stylesheet" href="https://biddingwars.azurewebsites.net/CSS/SignUp.css">
    
 </head>
 <body>
@@ -17,10 +17,10 @@ include('smtp/PHPMailerAutoload.php');
        <div class="top">
             
             <ul>
-                <li style="float: right;"><a href="./Rules.html">Rules</a></li>
-                <li style="float: right;"><a href="./Contact.php">Contact</a></li>
-                <li style="float: right;"><a href="index.php">Home</a></li>
-                <list style="float: left;"><a href="index.php"><img src="./CSS/logo.jpg" height="60px"></a></list>
+                <li style="float: right;"><a href="https://biddingwars.azurewebsites.net/Rules.html">Rules</a></li>
+                <li style="float: right;"><a href="https://biddingwars.azurewebsites.net/Contact.php">Contact</a></li>
+                <li style="float: right;"><a href="https://biddingwars.azurewebsites.net">Home</a></li>
+                <list style="float: left;"><a href="https://biddingwars.azurewebsites.net"><img src="https://biddingwars.azurewebsites.net/CSS/logo.jpg" height="60px"></a></list>
 			</ul>
         </div> 
     </div>
