@@ -79,9 +79,7 @@
                         echo "<br><h3>Username is already Taken</h3>";
                     }else{
 					   $sql="INSERT into registration values ('$uname', '$fname', '$mname', '$lname', '$dob', '$gender', '$room_no', '$locality', '$station', '$pincode', '$state', '$phone', '$email', '$pwd', '$status')";
-                       echo smtp_mailer($email,$subject,$body);
                         if ($conn->query($sql) === TRUE) {
-							
                             $log = "INSERT INTO login(email, uname, pwd) VALUES ('$email', '$uname', '$pwd')";
                             if ($conn->query($log) === TRUE) {
                                 $mssg = urldecode("$uname, You have been succesfully registered");
